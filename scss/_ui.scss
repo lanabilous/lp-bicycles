@@ -1,0 +1,34 @@
+.ibg {
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+  img {
+    display: none;
+  }
+}
+
+.slick-slider {
+  position: relative;
+  .slick-track,
+  .slick-list {
+  }
+  .slick-list {
+    overflow: hidden;
+  }
+  .slick-track {
+    // @include flexbox();
+    display: flex;
+  }
+  .slick-slide {
+  }
+  .slick-dots {
+    li {
+      button {
+      }
+      &.slick-active {
+        button {
+        }
+      }
+    }
+  }
+}
